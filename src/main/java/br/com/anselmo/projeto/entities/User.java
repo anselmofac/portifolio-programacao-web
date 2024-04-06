@@ -11,10 +11,6 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Column;
 import java.util.Objects;
 
-import org.springframework.beans.BeanUtils;
-
-
-
 @Entity
 @Table(name = "tb_user")
 public class User {
